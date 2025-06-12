@@ -1,0 +1,130 @@
+body {
+    font-family: Helvetica;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  nav {
+    background: #444;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  nav a:hover {
+    background: #666;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 15px;
+    gap: 20px;
+    margin: 10px;
+  }
+  
+  .card {
+    background: white;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+    text-decoration: none;
+    
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .card p {
+    color: #666;
+  }
+  
+  .card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .card a:hover {
+    text-decoration: underline;
+    text-decoration: none;
+  }
+
+@media (max-width: 600px) {
+  
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav a {
+    margin: 10px 0;
+  }
+  
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card {
+    max-width: 90%;
+  }
+  }
+  
+  #paragrafo{
+   font-size: 15; 
+  }
+
+  .sobre{
+    font-size: 15;
+  }
+
+.foto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200vh;
+}
+
+#fundo{
+  background-color: #ffffff;
+}
+
+#botao{
+  width: 100vh;
+  height: 70px;
+  
+}
+
+.musica{
+  text-align: center;
+}
